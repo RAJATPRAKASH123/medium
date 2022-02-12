@@ -12,6 +12,7 @@ from matplotlib import pyplot as plt
 # read tag and dates data
 
 def plotTagMonthly():
+    print("Plottings")
     csv_input = pd.read_csv('allArticles.csv')
     print(csv_input.columns)
     tag_date = defaultdict(list)
